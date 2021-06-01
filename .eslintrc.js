@@ -6,6 +6,7 @@ module.exports = {
   'extends': [
     'plugin:react/recommended',
     'google',
+    'plugin:jsdoc/recommended',
   ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
@@ -18,7 +19,9 @@ module.exports = {
   'plugins': [
     'react',
     '@typescript-eslint',
+    'jsdoc',
   ],
   'rules': {
+    'import/no-named-as-default': 0,
   },
 };
